@@ -55,7 +55,7 @@ class EIP712Type:
     def __hash__(self):
         return hash(self.type_name)
 
-
+#AEVO TOP
 class Array(EIP712Type):
     def __init__(
         self, member_type: Union[EIP712Type, Type[EIP712Type]], fixed_length: int = 0
